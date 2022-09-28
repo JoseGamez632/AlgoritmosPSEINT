@@ -5,8 +5,8 @@ Algoritmo revisarEdad
 	Leer edad;
 	//Proceso
 	Si (edad>=18) Entonces
-		Escribir "Eres mayor de edad: ";
+		Escribir "Eres mayor de edad: "; //Salida si V
 	SiNo
-		Escribir "No eres mayor de edad";
+		Escribir "No eres mayor de edad"; //Salida si F
 	Fin Si
 FinAlgoritmo
