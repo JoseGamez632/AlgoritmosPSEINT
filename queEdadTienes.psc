@@ -1,5 +1,5 @@
 Algoritmo queEdadTienes
-	Definir mes1, año1, mes2, año2 Como Entero;
+	Definir mes1, año1, mes2, año2, NumMeses, NumAños Como Entero;
 	Escribir "Coloca mes de nacimiento";
 	Leer mes1;
 	Escribir "Coloca año de nacimiento";
@@ -8,5 +8,14 @@ Algoritmo queEdadTienes
 	Leer mes2;
 	Escribir "Colocar año actual"
 	Leer año2;
-	Escribir "La edad es " ((año2*12+mes2)-(año1*12+mes1))/12
+	NumAños=año2-año1
+	si mes1 > mes2 Entonces
+		NumAños = NumAños - 1;
+	FinSi
+	NumMeses=mes2-mes1
+	si NumMeses < 1 Entonces
+		NumMeses = NumMeses +12;
+	FinSi
+	
+	Escribir "Usted tiene " NumAños " años y " NumMeses " meses."
 FinAlgoritmo
