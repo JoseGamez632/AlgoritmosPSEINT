@@ -17,7 +17,7 @@ Algoritmo queEdadTienes
 		NumAños = NumAños - 1;
 	FinSi
 	NumMeses=mes2-mes1
-	si NumMeses < 1 Entonces
+	si NumMeses < 0 Entonces
 		NumMeses = NumMeses +12;
 	FinSi
 	
