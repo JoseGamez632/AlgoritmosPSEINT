@@ -1,4 +1,4 @@
-Algoritmo añoBisisetONo
+Algoritmo añoBisisestoONo
 	Definir año Como Entero;
 	Escribir "Digita año a evaluar";
 	Leer año;
