@@ -5,5 +5,5 @@ Algoritmo ejemploDoWhile
 	Repetir
 		Escribir i, ' hola estoy dentro del ciclo';
 		i=i+1;
-	Hasta Que (i==10)
+	Hasta Que (i>=10)
 FinAlgoritmo
