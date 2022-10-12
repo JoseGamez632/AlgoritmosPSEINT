@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Definir taller1, taller2, quiz, parcial, nota como entero;
+	Definir trentaporcien, setentaporcien como real;
+	Escribir 'Digiar las notas en el siguiente orden (talle1 - taller2 - quiz - parcial)';
+	Leer taller1, taller2, quiz, parcial;
+	trentaporcien <- ((taller1 + taller2 + quiz)*30)/100;
+	setentaporcien <- (parcial * 70)/100;
+	nota = trentaporcien + setentaporcien;
+	Escribir 'Su nota final es ' nota;
+	Escribir trentaporcien;
+	Escribir setentaporcien
+	
+	
+FinAlgoritmo
