@@ -10,5 +10,5 @@ Algoritmo capitalMasInteres
 		tmp = tmp + 1
 		Escribir ' Capital con Interes año ', (tmp-1), ' es de ' i;
 	Fin Para
-	Escribir 'Se ha doblado enl mono del capital'
+	Escribir 'Se ha doblado el monto del capital'
 FinAlgoritmo
